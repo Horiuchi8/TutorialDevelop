@@ -13,14 +13,14 @@ import lombok.Data;
 @Entity
 @Table(name = "authentication")
 public class Authentication {
-    /**ログインユーザー名*/
+    /**ログインユーザ名*/
     @Id
     private String loginUser;
 
     /**パスワード*/
     private String password;
 
-    /**有効期限*/
+    /**有効日付*/
     private Date validDate;
 
     /**ユーザーID*/
